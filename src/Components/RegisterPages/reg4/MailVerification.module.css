@@ -1,0 +1,44 @@
+.regMailVerifyContainer {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+
+  width: 35%;
+  height: 55%;
+  min-height: 490px;
+}
+
+.greetings {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.stage {
+  font-size: 24px;
+  position: absolute;
+  top: 2%;
+  right: 3%;
+}
+
+.formBackground {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(226, 226, 226);
+  border-radius: 20px;
+}
+
+.mailLetter {
+  margin-left: 10%;
+}
+
+.paragraph {
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+
+  width: 80%;
+  display: column;
+  font-size: 24px;
+}

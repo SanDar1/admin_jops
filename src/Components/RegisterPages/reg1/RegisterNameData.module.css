@@ -1,0 +1,124 @@
+.regNameDataContainer {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+
+  width: 35%;
+  height: 55%;
+  min-height: 490px;
+}
+
+.greetings {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.stage {
+  font-size: 24px;
+  position: absolute;
+  top: 2%;
+  right: 3%;
+}
+
+.formBackground {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(226, 226, 226);
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.inputs {
+  width: 80%;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.inputContainer {
+  display: flex;
+  width: 100%;
+}
+
+.inputIcons {
+  font-size: 30px !important;
+  margin-top: 10px;
+  margin-right: 15px
+}
+
+.agreement {
+  color: #7D7D7D;
+  font-size: 14px;
+  text-decoration: underline;
+
+  position: absolute;
+  top: 75%;
+  text-align: center;
+}
+
+.nextStageWrap {
+  position: absolute;
+  top: 82%;
+  width: 75%;
+  left: 15%;
+}
+
+.nextStageLink {
+  width: 100%;
+  height: 40px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+
+  font-size: 15px;
+  color: #7D7D7D;
+  cursor: pointer;
+}
+
+.nextStageLink button {
+  width: 100%;
+  height: 40px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 0 5px 15px;
+  outline: none;
+
+  font-size: 15px;
+  color: #7D7D7D;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+.hasAccountWrap {
+  position: absolute;
+  top: 92%;
+}
+
+.hasAccount {
+  color: #7D7D7D;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+@media (max-width: 1600px) {
+  .agreement {
+    width: 95%;
+    top: 70%;
+    left: 10px;
+  }
+}

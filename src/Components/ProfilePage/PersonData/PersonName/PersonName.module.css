@@ -1,0 +1,14 @@
+.personName {
+  width: 260px;
+
+  margin-right: 40px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 20px;
+}
+
+.gridItem {
+  display: flex;
+  justify-content: center;
+}

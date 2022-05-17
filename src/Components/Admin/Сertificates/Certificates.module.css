@@ -1,0 +1,11 @@
+.certificates {
+  margin: 7% 0 0 17%;
+  width: 80%;
+}
+
+@media (max-width: 1400px) {
+  .certificates {
+    width: 70%;
+    margin-left: 25%;
+  }
+}

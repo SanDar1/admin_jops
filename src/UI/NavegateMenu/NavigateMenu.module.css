@@ -1,0 +1,47 @@
+.navigateMenu {
+  position: fixed;
+  left: 20px;
+  top: 170px;
+
+  /* margin: 200px 0 0 0; */
+
+  border-radius: 10px;
+  background: linear-gradient(90deg, #f9fafa 0%, #eff2f6 50%, #f0f3f8 100%);
+
+  width: 270px;
+  height: 500px;
+}
+
+.marker {
+  position: absolute;
+  left: 0;
+  display: block;
+
+  background-color: #2972a0;
+  width: 4px;
+  height: 48px;
+
+  border-top-right-radius: 70%;
+  border-bottom-right-radius: 70%;
+}
+
+.navList a {
+  text-decoration: none;
+}
+
+.navList li {
+  color: #313131;
+}
+
+.navList li:hover {
+  color: #000;
+}
+
+.menuItem span {
+  font-weight: 600;
+}
+
+.navList span {
+  font-family: 'Oswald' !important;
+  font-size: 20px;
+}

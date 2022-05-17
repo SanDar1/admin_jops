@@ -1,0 +1,10 @@
+.programDetails {
+  margin: 8% 0 0 20%;
+  width: 65%;
+}
+
+@media (max-width: 1600px) {
+  .programDetails {
+    margin-left: 30%;
+  }
+}

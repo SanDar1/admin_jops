@@ -1,0 +1,37 @@
+.profileIconAndMes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 220px;
+  height: 40px;
+  top: 20px;
+  right: 15px;
+}
+
+.badge span {
+  /* background-color: #084676; */
+  min-width: 0 !important;
+  width: 16px !important;
+  height: 16px !important;
+  font-size: 0.7rem !important;
+}
+
+.bellIcon {
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+}
+
+.divider {
+  position: absolute;
+  left: 15%;
+}
+
+.personName {
+  position: absolute;
+  left: 25%;
+}

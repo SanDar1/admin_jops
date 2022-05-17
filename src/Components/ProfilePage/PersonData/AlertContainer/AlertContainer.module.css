@@ -1,0 +1,17 @@
+.alertContainer {
+  width: 350px;
+  border-radius: 15px;
+  margin: 40px 0 0 80px;
+}
+
+.alert {
+  color: white !important;
+  font-size: 14px !important;
+  background: linear-gradient(30deg, #2972a0 0%, #70caf2 100%) !important;
+}
+
+@media (max-width: 1400px) {
+  .alertContainer {
+    margin-left: 20px;
+  }
+}

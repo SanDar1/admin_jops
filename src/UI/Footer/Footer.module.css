@@ -1,0 +1,27 @@
+.footer {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: #3b3e43;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: white;
+  position: absolute;
+  left: 30px;
+}
+
+.footer a {
+  color: #bec4cf;
+  transition: color 0.2s;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.footer a:hover {
+  color: white;
+}

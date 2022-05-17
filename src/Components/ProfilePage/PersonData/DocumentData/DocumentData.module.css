@@ -1,0 +1,41 @@
+.documentContainer {
+  margin-left: 30px;
+
+  width: 450px;
+  height: 440px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.boxGridContainer {
+  margin-top: 30px;
+}
+
+.gridItem {
+  display: flex;
+  justify-content: center;
+}
+
+.documentTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.pinPassportAndSNILS {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.pinPassportAndSNILS label {
+  cursor: pointer;
+  margin-left: -20px;
+}
+
+.pinPassportAndSNILS p {
+  font-size: 18px;
+}

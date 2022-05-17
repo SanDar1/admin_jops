@@ -1,0 +1,42 @@
+@font-face {
+  /* font-family: 'Inter'; */
+  /* src: url('/src/fonts/Inter/Inter-Regular.ttf'); */
+  font-family: 'Oswald';
+  src: url('./fonts/Oswald/Oswald-VariableFont_wght.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100%;
+
+  background: linear-gradient(90deg, #f5f9fc 0%, #ebeef3 5%, #eaeef3 90%, #f5f9fc 100%);
+
+  font-family: 'Oswald';
+}
+
+/* Для таблиц */
+.MuiTablePagination-root p {
+  font-family: 'Oswald' !important;
+}
+
+.MuiTablePagination-selectLabel {
+  visibility: hidden;
+}
+
+.MuiTablePagination-selectLabel:after {
+  content:'Строк на странице'; 
+  visibility: visible;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 230px;
+}

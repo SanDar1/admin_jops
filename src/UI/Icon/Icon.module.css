@@ -1,0 +1,20 @@
+.insIconContainer {
+  position: fixed;
+  top: 0;
+  left: 20px;
+
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  background: linear-gradient(0deg, #fff 0%, #eff1f3 40%, #ebeef3 100%);
+}
+
+.insIcon {
+  margin-left: 30px;
+  width: 140px;
+}
+
+.iconLink {
+  color: #7099FF;
+  text-decoration: none;
+}

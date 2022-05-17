@@ -1,0 +1,20 @@
+.scienceDegreeTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.gridItem {
+  display: flex;
+  justify-content: center;
+}
+
+.additionalInfo {
+  width: 270px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+
+  margin-right: 40px;
+}

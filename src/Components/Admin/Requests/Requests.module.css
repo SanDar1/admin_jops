@@ -1,0 +1,11 @@
+.requests {
+  margin: 7% 0 0 17%;
+  width: 80%;
+}
+
+@media (max-width: 1400px) {
+  .requests {
+    width: 70%;
+    margin-left: 25%;
+  }
+}

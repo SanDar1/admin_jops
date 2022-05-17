@@ -1,0 +1,10 @@
+.programContainer {
+  /* width: 950px; */
+  margin: 10% 0 0 20%;
+}
+
+@media (max-width: 1600px) {
+  .programContainer {
+    margin: 10% 0 0 30%;
+  }
+}

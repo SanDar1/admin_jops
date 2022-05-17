@@ -1,0 +1,32 @@
+.cards {
+  margin-top: 50px;
+  margin-right: 50px;
+
+  width: 280px;
+  height: 360px;
+  display: inline-flex;
+
+  transition: width .2s, height .2s !important;
+}
+
+.cards:hover {
+  width: 320px;
+  height: 380px;
+}
+
+.cards div {
+  font-family: "Oswald" !important;
+}
+
+.cards p {
+  font-family: "Oswald" !important;
+}
+
+.cards a {
+  text-decoration: none;
+  color: #000;
+}
+
+.paragraph {
+  height: 60px;
+}
